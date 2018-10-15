@@ -1,0 +1,10 @@
+<staff>
+    <branch location="cairo">
+        <employee>
+            <Name>Sherif Talaat</Name>
+            <Role>IT</Role>
+        </employee>
+    </branch>
+    <branch location="Redmond">
+    </branch>
+</staff>
