@@ -30,25 +30,8 @@ if( $simulate -eq 0 )
 
 $remPackLike = "*.$($versionFilter).nupkg" # filter package name
 $remFromPath = @(
-    'nuget-apps-snapshot-local:Output.Actions',
-    'nuget-apps-snapshot-local:Core.Plugins',
-    'nuget-apps-snapshot-local:Dma.Actions',
-    'nuget-apps-snapshot-local:Dma.Actions.Configuration',
-    'nuget-apps-snapshot-local:Dma.Plugins',
-    'nuget-apps-snapshot-local:GDA.Plugins',
-    'nuget-apps-snapshot-local:IDA.Actions',
-    'nuget-apps-snapshot-local:IDA.Actions.Configuration',
-    'nuget-apps-snapshot-local:IDA.Plugins',
-    'nuget-apps-snapshot-local:JetStream.Automation.Handlers',
-    'nuget-apps-snapshot-local:Job.Actions',
-    'nuget-apps-snapshot-local:Job.Actions.Configuration',
-    'nuget-apps-snapshot-local:Job.Automation.Handlers'
-    'nuget-apps-snapshot-local:Job.Database.Template',
-    'nuget-apps-snapshot-local:Job.Plugins',
-    'nuget-apps-snapshot-local:Output.Actions',
-    'nuget-apps-snapshot-local:Output.Actions.Configuration' ,
-    'nuget-apps-snapshot-local:Output.Plugins',
-    'nuget-apps-snapshot-local:Output.Automation.Handlers'
+    'nuget-apps-snapshot-local:Some.Package',
+    'nuget-apps-snapshot-local:Some.OtherPackage'
 );
 
 $remOlderThan = New-Timespan -days $ageFilter # 0 to remove all
